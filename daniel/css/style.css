@@ -1,0 +1,599 @@
+body{
+    color: #213546;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #ffffff;
+    transition: .3s;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+nav {
+    text-decoration: none;
+    background-color: #F2B6A0;
+    height: auto;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    border: #F28444 double 5px;
+    text-align: center;
+}
+
+div .h20{
+    border: #40241e solid;
+    border-radius: 50px;
+    text-align: center;
+    padding: 3px;
+    margin: auto;
+    width: 26%;
+}
+
+.div1 {
+    background-color: #F27141;
+    width: 100%;
+    border: green solid 2px;
+    padding: 80px 0px 80px;
+}
+
+.div2 {
+    background-color: lightblue;
+    width: 100%;
+    border: green solid 2px;
+    padding: 0px 0px 0px;
+}
+
+.div3 {
+    border-style: solid;
+    border-color: black;
+    text-align: right;
+    clear: both;
+}
+
+div h3 {
+    display: inline-block;
+}
+
+form{display: inline-block;
+    padding-right: 10px;
+    margin: 15px;
+}
+
+form h3{padding-left: 35px;
+    margin: 5px;}
+
+button{
+    display: inline-block;
+    padding-right: 10px;
+    margin: 15px;
+}
+
+.img1 {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    height: 45%; width: 45%;
+}
+
+.spacing {
+    margin: 20px;
+}
+
+.copyright {
+    font-style: italic;
+    text-align: center;
+}
+
+.box1 {
+    border: black solid 2px;
+    margin-top: 20px;
+    margin-right: 800px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ffffff;
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #00539C;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1050px;
+}
+
+
+/*******************************/
+/********** Header CSS *********/
+/*******************************/
+.header {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+@media (min-width: 1200px) {
+    .header .container-fluid {
+            padding-left: 60px;
+            padding-right: 60px;
+    }
+}
+
+.header .brand {
+    position: relative;
+}
+
+.header .brand img {
+    width: 100%;
+    max-width: 150px;
+    height: 100%;
+    max-height: 100px;
+}
+
+.header .topbar {
+    position: relative;
+    text-align: right;
+}
+
+.header .topbar .topbar-col {
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.header .topbar-col a {
+    color: #213546;
+    font-size: 13px;
+}
+
+.header .topbar-col a i {
+    margin-right: 10px;
+    color: #4F84C4;
+}
+
+.header .topbar-social {
+    position: relative;
+}
+
+.header .topbar-social a {
+    display: inline-block;
+}
+
+.header .topbar-social a i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.header .topbar-social a:last-child i {
+    margin: 0;
+}
+
+.header .topbar-social a:hover i {
+    color: #4F84C4;
+}
+
+.header .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #bbbbbb;
+}
+
+.header .dropdown-menu a.active {
+    color: #F28444;
+}
+
+@media (min-width: 992px) {
+    .header .navbar {
+            background: #ffffff !important;
+    }
+
+    .header .navbar-brand {
+            display: none;
+    }
+
+    .header .navbar-light a.nav-link {
+            position: relative;
+            padding: 8px 10px;
+            color: #213546;
+            font-size: 16px;
+            z-index: 1;
+    }
+
+    .header .navbar-light a.nav-link:hover,
+    .header .navbar-light a.nav-link.active {
+            color: #F28444;
+    }
+}
+
+@media (max-width: 992px) {
+    .header .brand {
+            text-align: center;
+            margin-bottom: 15px;
+    }
+
+    .header .topbar {
+            text-align: center;
+            margin-bottom: 15px;
+    }
+
+    .header .topbar .topbar-col {
+            margin: 0;
+    }
+
+    .header .topbar .topbar-social {
+            margin-top: 5px;
+    }
+
+    .header .navbar {
+            background: #ffffff !important;
+            border: 1px solid #eeeeee;
+            z-index: 1;
+    }
+
+    .header a.nav-link {
+            padding: 5px 0;
+    }
+
+    .header .dropdown-menu {
+            box-shadow: none;
+    }
+}
+
+.header .navbar .btn {
+    position: relative;
+    margin-left: 15px;
+    padding: 12px 25px 10px 25px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(#4F84C4, #00539C);
+    transition: .5s;
+}
+
+.header .navbar .btn:hover {
+    background: linear-gradient(#00539C, #4F84C4);
+}
+
+.header .navbar .btn i {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+@media (max-width: 992px) {
+    .header .navbar .btn {
+            margin: 15px 0 10px 0;
+    }
+}
+
+
+/*************************/
+/******* Div 1 CSS *******/
+/*************************/
+.div1 {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(to right, #F28444, #F27141 50%);
+}
+
+.div1 h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.div1 a {
+    position: relative;
+    padding: 0 12px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.div1r a::after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    top: 6.5px;
+    right: -6px;
+    border-radius: 7px;
+    background: #ffffff;
+}
+
+.page-header a:last-child::after {
+    display: none;
+}
+
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.footer {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#F2B6A0 ; 
+}
+
+.footer .footer-about,
+.footer .footer-link {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+@media(min-width: 992px) {
+    .footer .container:first-child {
+        max-width: 960px;
+        margin-bottom: 30px;
+    }
+    
+    .footer .footer-about,
+    .footer .footer-link {
+        padding: 0 30px;
+    }
+}
+
+.footer .footer-about h2,
+.footer .footer-link h2 {
+    position: relative;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.footer .footer-about h2::after,
+.footer .footer-link h2::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #999999, #ffffff, #999999);
+    border-radius: 0 100% 100% 0; 
+}
+
+.footer .footer-about p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.footer .footer-about p i {
+    width: 20px;
+}
+
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999999;
+    
+}
+
+.footer .footer-link a::before {
+    position: relative;
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .footer-link a:hover {
+    color: #ffffff;
+}
+
+.footer .copyright {
+    padding: 15px;
+    border-top: 1px solid #3b3e43;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer .copyright p {
+    margin: 0;
+    font-size: 14px;
+    color: #999999;
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+.footer .copyright p a {
+    color: #999999;
+}
+
+.footer .copyright p a:hover {
+    color: #ffffff;
+}
+
+.topbar {
+    position: relative;
+    text-align: right;
+}
+
+.topbar .topbar-col {
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.topbar-col a {
+    color: #213546;
+    font-size: 13px;
+}
+
+.topbar-col a i {
+    margin-right: 10px;
+    color: #4F84C4;
+}
+
+.topbar-social {
+    position: relative;
+}
+
+.topbar-social a {
+    display: inline-block;
+}
+
+.topbar-social a i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.topbar-social a:last-child i {
+    margin: 0;
+}
+
+.topbar-social a:hover i {
+    color: #4F84C4;
+}
+
+@media (max-width: 768px) {
+    .footer .copyright p,
+    .footer .copyright .col-md-6:last-child p {
+        margin: 5px 0;
+        text-align: center;
+    }
+}
+
+.topbar {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.topbar .topbar-col {
+    margin: 0;
+}
+
+.topbar .topbar-social {
+    margin-top: 5px;
+}
+
+/* CSS FOR GALLERY */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgb(138, 123, 146);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.44%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
